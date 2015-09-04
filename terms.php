@@ -42,6 +42,7 @@
 		<script src="js/jquery.slides.min.js" type="text/javascript"></script>
 		<script src="js/bradesco-menu.js" type="text/javascript"></script>
 		<script src="js/sprite-animation.js" type="text/javascript"></script>
+		<script src="js/mobile.js" type="text/javascript"></script>
 	</body>
 </html>
 
