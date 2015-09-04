@@ -1,0 +1,148 @@
+#content {
+	position: relative;
+}
+#content form {
+	display:none;
+}
+#content form > div {
+	width:1024px;
+	height:480px;
+	display:block;
+	text-align:center;
+	position: relative;
+}
+#content .title {
+	display:block;
+	margin:0 auto;
+	/*margin-bottom:80px;*/
+	width:330px;
+}
+#content form h2 {
+	font-family:Mikado-Bold;
+	font-size:21.39px;
+	color:#626262;
+	margin-top:0;
+	margin-bottom:40px
+}
+#content form label, #content form p {
+	display:block;
+	font-family:Asap-Regular;
+	font-size:15.28px;
+	color:#626262;
+	margin-bottom:5px;
+}
+#content form div:not(:first-child) .title {
+	margin-bottom:60px;
+}
+#content form input[type=text],#content form input[type=email],#content form input[type=number],#content form input[type=password] {
+	width:365px;
+	height:35px;
+	border:none;
+	outline-width: 0;
+	border-radius:10px;
+	font-size:16px;
+	padding:10px;
+}
+#content form .slidesjs-next, #content form .end-button {
+	position:absolute;
+	bottom: 185px;
+	right:20px;
+	cursor:pointer;
+	width:160px;
+}
+#content form .slidesjs-previous {
+	position:absolute;
+	bottom:185px;
+	left:20px;
+	cursor:pointer;
+	width:160px;
+}
+.slidesjs-next:hover, .end-button:hover {
+	/*width:200px !important;*/
+	transform:rotate(5deg);
+}
+.slidesjs-previous:hover {
+	transform:rotate(-5deg);
+}
+#content form .slidesjs-slide {
+	height:480px;
+}
+#content form label[for=parent-email] span {
+	display:block;
+	font-family:Asap-Regular;
+	font-size:15.28px;
+	color:#626262;
+}
+#content form .gender-pick p {
+	display:inline-block;
+	font-family:Asap-Regular;
+	font-size:19.86px;
+	color:#626262;
+}
+#content form .gender-pick input[type=radio] {
+	display:none;
+}
+#content form .gender-pick input[type=radio]:checked + label {
+	border:1px solid #e80039;
+	background-color:#e80039;
+	border-radius:20px;
+	color:white;
+}
+#content form .gender-pick label {
+	display:inline-block;
+	margin:10px;
+	padding:8px;
+	border:1px solid #626262;
+	border-radius:20px;
+	font-family:Asap-Bold;
+	font-size:15.28px;
+}
+#age {
+	width:85px !important;
+}
+#content form .password-pick p {
+	font-family:Asap-Regular;
+	font-size:16px;
+	color:#828282;
+}
+#content form .password-pick label {
+	display:inline-block;
+	margin-bottom:25px;
+	width:140px;
+	text-align:right;
+}
+#content form .password-pick input[type=password] {
+	width:220px;
+	font-size:28px;
+}
+.slidesjs-pagination {
+	margin:0;
+	padding:0;
+	padding-left:102px;
+	list-style-type: none;
+	position:absolute;
+	top:355px;
+	left:300px;
+}
+.slidesjs-pagination li {
+	float:left;
+	margin:2px;
+}
+.slidesjs-pagination li a {
+	background-image:url(../img/pagination-off.png);
+	display:block;
+	width:10px;
+	height:9px;
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.slidesjs-pagination li a.active {
+	background-image:url(../img/pagination-on.png);
+}
+.speech {
+	display:none;
+	position:absolute;
+	left:0;
+	top:60px;
+}

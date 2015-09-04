@@ -1,0 +1,24 @@
+.jumbotron {
+	width:100%;
+	height:500px;
+	background-size:cover;
+	position:relative;
+}
+.jumbotron .divider {
+	width:100%;
+	height:342px;
+	background-size:100% 100%;
+	position:absolute;
+	top:90%;
+	z-index:11;
+}
+.jumbotron .content {
+	position:relative;
+}
+.jumbotron .play-btn {
+	position:absolute;
+	bottom:-100px;
+	left:50%;
+	margin-left:-185px;
+	z-index:12;
+}

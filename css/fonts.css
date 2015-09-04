@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Asap-Bold;
+    src: url(../font/Asap-Bold.ttf);
+}
+@font-face {
+    font-family: Asap-Regular;
+    src: url(../font/Asap-Regular.ttf);
+}
+@font-face {
+    font-family: Mikado-Bold;
+    src: url(../font/Mikado-Bold.otf);
+}
+@font-face {
+    font-family: Mikado-Black;
+    src: url(../font/Mikado-Black.otf);
+}
+@font-face {
+    font-family: Mikado-Regular;
+    src: url(../font/Mikado-Regular.otf);
+}
+

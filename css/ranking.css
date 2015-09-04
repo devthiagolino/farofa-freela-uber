@@ -1,0 +1,404 @@
+body {
+	background-color:#cee9ff;
+	background-image:url(../img/ranking-background.png);
+	background-repeat:no-repeat;
+	background-position:50% 100%;
+}
+footer .rocket-station {
+	display:none;
+	margin-top:0;
+}
+
+#content {
+	padding-top:60px;
+	text-align:center;
+}
+
+#content nav {
+	background-color:#7f0024;
+	/*-webkit-box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.75);*/
+	border-radius:10px;
+	overflow:hidden;
+}
+
+#content > img {
+	margin-bottom:-4px;
+}
+
+#content nav > div {
+	text-align:center;
+	font-family:Mikado-Bold;
+	font-size:16.33px;
+	line-height:76px;
+	height:76px;
+	float:left;
+	width:14.2657142657%;
+	color:#e60039;
+	cursor:pointer;
+}
+#content nav > div span {
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+}
+#content nav > div:hover, #content nav > div.active {
+	background-color:#e60039;
+	text-shadow: 
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff
+	;
+}
+#content nav > div:hover {
+	background-color:#C70031;	
+}
+#content table {
+	width:100%;
+	text-align:center;
+	border-collapse:collapse;
+}
+#content .image-header {
+	margin-top:25px;
+	height:247px;
+	background-image:url(../img/image-header-urbz.jpg);
+	background-size:cover;
+}
+#content .image-header.noTrilhoDoTrem {
+	background-image:url(../img/image-header-train.jpg);
+}
+#content .image-header.emCimaDaFaixa {
+	background-image:url(../img/image-header-street.jpg);
+}
+#content .image-header.obstakulos {
+	background-image:url(../img/image-header-obstacles.jpg);
+}
+#content .image-header.batalhaDosMitos {
+	background-image:url(../img/image-header-myths.jpg);
+}
+#content .image-header.mordix {
+	background-image:url(../img/image-header-mordix.png);
+}
+#content .image-header.emApuros {
+	background-image:url(../img/image-header-emapuros.png);
+}
+#content table th, #content table tr {
+	width:33.33333333%;
+}
+#content table th {
+	background-color:#e60039;
+	color:white;
+	padding:8px;
+	font-family:Mikado-Bold;
+	font-size:22.92px;
+	height:60px;
+}
+#content table tr {
+	background-color:white;
+	position:relative;
+	font-family:Asap-Regular;
+	font-size:27.5px;
+	color:#898989;
+}
+#content table td {
+	height:89px;
+	position:relative;
+}
+#content table td .rank {
+	background-image:url(../img/rank-container.png);
+	width:56px;
+	height:66px;
+	color:#e80039;
+	position:absolute;
+	left:-15px;
+	top:10px;
+	padding-top:20px;
+	padding-right:10px;
+	text-align:center;
+}
+#content table td .rank > img {
+	width:auto;
+	height:auto;
+	position:absolute;
+	left:105px;
+	top:40px;
+}
+#content table td .rank.rank1 {
+	background-image:url(../img/rank-container-gold.png);
+	color:#cf9724;
+}
+#content table td .rank.rank2 {
+	background-image:url(../img/rank-container-silver.png);
+	color:#93a3b5;
+}
+#content table td .rank.rank3 {
+	background-image:url(../img/rank-container-bronze.png);
+	color:#8c3f11;
+}
+#content table td.name {
+	text-align: left;
+	padding-left:60px;
+}
+#content table td img {
+	width:44px;
+	height:44px;
+	vertical-align:middle;
+	margin-right:10px;
+}
+#content table td p {
+	display:inline-block;
+	max-width:220px;
+}
+#content table td:nth-child(2) {
+	position:relative;
+}
+#content table tr:not(:nth-child(2)) td:nth-child(2):before {
+	content : "";
+  position: absolute;
+  left    : -480px;
+  top     : 0;
+  height  : 1px;
+  width   : calc(100% + 438px);
+  border-bottom:1px solid #959595;
+}
+#content table .inner {
+	cursor:pointer;
+	margin:0 35px;
+}
+#content table .inner.active {
+	border:2px solid white;
+	border-radius:30px;
+	padding:7px 16px;
+}
+
+#content table tr.your-rank, #content table tr.your-rank td {
+	height:85px;
+}
+
+#content table tr.your-rank td:before, #content table tr.rank-end td:before  {
+	display:none;
+}
+#content table tr.rank-end, #content table tr.rank-end td {
+	height:30px;
+	overflow:hidden;
+}
+#content table tr.your-rank {
+	background-color:#7f0024;
+	position:relative;
+	margin-top:-1px;
+	color:white;
+}
+#content table tr.your-rank .name {
+	padding-left:0;
+}
+#content table tr.your-rank .name p {
+	margin:0;
+	color:#e80039;
+}
+#content table tr.your-rank a {
+	color:inherit;
+	font-weight:bold;
+	text-decoration:none;
+}
+#content table tr.your-rank .rank {
+	background:none;
+	width:auto;
+	height:auto;
+	color:white;
+	position:relative;
+	left:auto;
+	top:auto;
+	padding:0;
+	display:inline-block;
+	margin-right:39px;
+	padding-top:4px;
+}
+#content table tr.your-rank .name img.icon {
+	border:3px solid white;
+}
+#content table tr.your-rank .left {
+	width:15px;
+	height:95px;
+	position:absolute;
+	left:-15px;
+	top:-10px;
+}
+#content table tr.your-rank .right {
+	width:14px;
+	height:85px;
+	position:absolute;
+	right:-24px;
+	top:0;
+}
+
+#content .ranking-category.emApuros {
+	width:14.4088740%;
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+	.urbzMoney{
+		display: none;
+	}
+	#content table th{
+		font-size: 14px;
+	}
+	nav.mobile .help-category{
+		width: 100%;
+	}	
+
+	#content nav.mobile{
+		position: absolute !important;
+	    top: 278px;
+	    left: auto;
+	    width: 90% !important;
+	}
+
+	#content nav.mobile > div{
+		width: 80% !important;
+	}
+	.img-help-mobile{
+		background-image: url(../img/mobile/ajuda/titulo_vertical.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		width: 100%;
+		min-height: 200px;
+	}	
+	nav.mobile .world,
+	nav.mobile .safety,
+	nav.mobile .parents{
+		display: none;
+	}
+	.ranking{
+		margin-top: 80px;
+	}
+	nav.mobile{		
+		width: 100%;
+		position: inherit !important;
+		height: 70px;
+		top: -46px;
+		width: 100% !important;
+		position: relative !important;
+	}
+	nav.mobile .help-page{
+		margin-top:  210px;
+		padding: 0 10px;
+	}
+
+	nav.mobile .up-down-toogle{
+		background-image: url(../img/mobile/ajuda/down_button.png);
+		width: 38px;
+		height: 36px;
+		position: absolute;
+		top: 15px;
+		right: 16px;
+	}
+		nav.mobile .up-down-toogle.active{
+			background-image: url(../img/mobile/ajuda/up_button.png);
+		}
+
+		div.mobile.active .world, div.mobile.active .safety, div.mobile.active .parents{
+			display: block;
+		}
+
+	/**
+	* BG's
+	*/	
+	.bg-header-ranking{
+		background-image: url(../img/mobile/ranking/Titulo_vertical.png);
+		background-size: 350px;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		width: 100%;
+		min-height: 200px;	
+	}
+
+	#content .image-header.batalhaDosMitos{
+		background-image: url(../img/mobile/ranking/Header_vertical_batalha.png);		
+	}
+	#content .image-header.urbzLevel{
+		background-image: url(../img/mobile/ranking/Header_vertical_urbz.png);		
+	}
+	#content .image-header.noTrilhoDoTrem{
+		background-image: url(../img/mobile/ranking/Header_vertical_Trem.png);		
+	}
+	#content .image-header.emCimaDaFaixa{
+		background-image: url(../img/mobile/ranking/Header_vertical_Faixa.png);			
+	}
+	#content .image-header.obstakulos{
+		background-image: url(../img/mobile/ranking/Header_vertical_obstakulos.png);			
+	}
+	#content .image-header.mordix{
+		background-image: url(../img/mobile/ranking/Header_vertical_mordix.png);			
+	}
+	#content .image-header.emApuros{
+		background-image: url(../img/mobile/ranking/Header_vertical_apuros.png);			
+	}
+
+}
+
+@media (min-width: 641px) and (max-width: 960px){
+	#content{
+		padding-top: 50px !important;
+	}	
+	
+	.bg-header-ranking{
+		background-image: url(../img/mobile/ranking/titulo_horizontal.png);
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		min-height: 200px;	
+	}
+	#content nav.mobile > div{
+		width: 80% !important;
+	}
+	.img-help-mobile{
+		background-image: url(../img/mobile/ajuda/titulo_vertical.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		width: 100%;
+		min-height: 200px;
+	}	
+	nav.mobile .world,
+	nav.mobile .safety,
+	nav.mobile .parents{
+		display: none;
+	}
+	.ranking{
+		margin-top: 80px;
+	}
+	nav.mobile{		
+		width: 100%;
+		position: absolute;
+		height: 70px;
+		top: 288px;
+		left: auto;
+		width: 95%;
+	}
+	nav.mobile .help-page{
+		margin-top:  210px;
+		padding: 0 10px;
+	}
+
+	nav.mobile .up-down-toogle{
+		background-image: url(../img/mobile/ajuda/down_button.png);
+		width: 38px;
+		height: 36px;
+		position: absolute;
+		top: 15px;
+		right: 8%;
+	}
+		nav.mobile .up-down-toogle.active{
+			background-image: url(../img/mobile/ajuda/up_button.png);
+		}
+
+		div.mobile.active .world, div.mobile.active .safety, div.mobile.active .parents{
+			display: block;
+		}
+}

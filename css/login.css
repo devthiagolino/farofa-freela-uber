@@ -1,0 +1,75 @@
+footer .rocket-station {
+	display:none;
+	margin-top:0;
+}
+
+body{
+	background-color:#3e8e00;
+	background-image:url(../img/account-bg.jpg);
+	background-position:50% 0;
+	background-repeat:repeat-x;
+}
+#content {
+	/*overflow:hidden;*/
+	padding-top:95px;
+	padding-left:70px;
+	height:600px;
+	width:800px;
+}
+#content .col-left {
+	width:60%;
+	height:400px;
+	float:left;
+}
+#content .col-left label {
+	display:block;
+	font-family:Mikado-Bold;
+	font-size:16px;
+	color:#626262;
+	margin:20px 0;
+}
+#content .col-left input[type=email] {
+	width:350px;
+	height:38px;
+	border:none;
+	border-radius:10px;
+	outline-width: 0;
+	padding:10px;
+	font-size:14.32px;
+}
+#content .col-left input[type=image] {
+	margin-top:20px;
+	position:relative;
+	right:-205px;
+	width:140px;
+}
+#content .col-right {
+	width:40%;
+	float:right;
+	padding-bottom:30px;
+	margin-bottom:30px;
+	/*padding-left:60px;*/
+}
+#content .col-right {
+	
+}
+#content hr {
+	border:none;
+	/*border-bottom: 1px solid #696969;*/
+	height:2px;
+	width:40%px;
+	margin-bottom:30px;
+	position:relative;
+	right:0;
+}
+.error {
+	color:#e80039;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+img#login {
+	width:180px;
+}
+img#new-account, img#visitor {
+	width:380px;
+}

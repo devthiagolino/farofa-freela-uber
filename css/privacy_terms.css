@@ -1,0 +1,43 @@
+footer .rocket-station {
+	display:none;
+	margin-top:0;
+}
+body {
+	background-color:#c9e7ff;
+	background-image:url(../img/alien-bg.jpg);
+	background-repeat:no-repeat;
+	background-position:50% calc( 100% - 432px );
+}
+#content {
+	min-height:650px;
+	margin-top:85px;
+	/*padding-bottom:190px;*/
+}
+#content nav {
+	margin-bottom:40px;
+}
+#content nav a {
+	font-family:Asap-Bold;
+	font-size:15.28px;
+	color:#626262;
+	width:146px;
+	height:30px;
+	border-radius:15px;
+	margin-right:20px;
+	padding:6px;
+	padding-left:0;
+	text-decoration:none;
+}
+
+#content nav a.selected {
+	background-color:#e80039;
+	color:white;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+#content > div {
+	font-family:Asap-Regular;
+	size:12px;
+	color:#626262;
+}

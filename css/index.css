@@ -1,0 +1,101 @@
+.jumbotron {
+	background-image: url(../img/new-user-bg.jpg);
+	background-position:58% calc( 118% + 545px);
+	background-size:auto;
+	/*background-image: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%), url(../img/city-header.jpg);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,1))), url(../img/city-header.jpg);
+	background-image: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%), url(../img/city-header.jpg); 
+	background-image: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%), url(../img/city-header.jpg);
+	background-image: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%), url(../img/city-header.jpg); 
+	background-image: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%), url(../img/new-user-bg.jpg);
+	background-position:100% 100%, 50% calc( 100% + 386px);*/
+}
+.jumbotron .divider {
+	background-image:url(../img/jumbotron-divider.png);
+}
+.jumbotron .character, .jumbotron .speak {
+	position:absolute;
+}
+.jumbotron .speak {
+	display:none;
+}
+.jumbotron .character1 {
+	left:-52px;
+	top:193px;
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+	-ms-filter: fliph; /*IE*/
+	filter: fliph; /*IE*/
+}
+.jumbotron .character1:hover ~ .speak4, .speak4:hover {
+	display:block;
+}
+.jumbotron .character2 {
+	left:72px;
+	top:165px;
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+	-ms-filter: fliph; /*IE*/
+	filter: fliph; /*IE*/
+}
+.jumbotron .character2:hover ~ .speak3, .speak3:hover {
+	display:block;
+}
+.jumbotron .character4 {
+	right:-40px;
+	top:147px;
+}
+.jumbotron .character4:hover ~ .speak1, .speak1:hover {
+	display:block;
+}
+.jumbotron .character3 {
+	right:92px;
+	top:172px;
+}
+.jumbotron .character3:hover ~ .speak2, .speak2:hover {
+	display:block;
+}
+.jumbotron .speak1 {
+	right:-129px;
+	top:272px;
+}
+.jumbotron .speak2 {
+	right:268px;
+	top:299px;
+}
+.jumbotron .speak3 {
+	left:259px;
+	top:281px;
+}
+.jumbotron .speak4 {
+	left:-102px;
+	top:378px;
+}
+.jumbotron .video {
+	padding-top:55px;
+	width:100%;
+	text-align:center;
+}
+
+#content {
+	padding-top:80px;
+	text-align:center;
+	position:relative;
+	z-index:11;
+}
+#content .about {
+	padding-top:50px;
+}
+#content .about canvas.about2 {
+	position:relative;
+	top:40px;
+}
+#content .safety-tag {
+	margin-top:25px;
+	left:160px;
+	position:relative;
+}

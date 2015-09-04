@@ -1,0 +1,697 @@
+* {
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+body, html {
+  min-width: 320px;
+}
+.centralizer {
+  text-align: center;
+  width:100%;
+  padding:0 20px;
+}
+.slick-slider, .corpo{
+  overflow: hidden;
+}
+
+ header{
+		padding-left: 0;
+	}	
+
+		.full-width nav.nav-mobile{
+			text-align: center;
+			position: relative;
+		}
+
+			.full-width nav.nav-mobile #list-mobile{
+				display: none;
+				position: absolute;	
+			}
+				.full-width nav.nav-mobile .toogle{
+					border-left: 1px #c60036 solid;				    
+					float: right;
+				    padding: 0 5px;
+				    background-color: #cf0034;
+				    display: block;
+				}
+					.full-width nav.nav-mobile .toogle img{
+						margin-top: 35%;
+					}
+
+				.full-width nav.nav-mobile #list-mobile{
+					list-style: none;
+				    background-color: #E80039;
+				    z-index: -1;
+				    width: 200px;
+				    min-height: 300px;
+				    right: 0px;
+				    top: 38px;
+				}
+					.full-width nav.nav-mobile #list-mobile li a{
+						display: inline-block;						
+					}
+					.full-width nav.nav-mobile #list-mobile li a.link{
+						border:none;
+					}
+					.full-width nav.nav-mobile #list-mobile li a span{
+						color: #fff;
+					}			
+			header nav .logo{
+				text-align: center;
+			}
+			.full-width nav .logo a{
+				display: inline;
+			}
+				
+	.logo-expansivel-mobile{
+		width: 100%;
+	}
+		.logo-expansivel-mobile img{
+			width: 70%;
+			margin-top: 72px;
+		}
+
+
+.full-width nav.nav-mobile #list-mobile{
+	padding-left: 0px;
+}
+.full-width nav.nav-mobile #list-mobile li a.link{
+	width: 100%;
+}
+
+@media (max-width: 991px) {
+  /* Header for any mobile 1x */
+  header {
+    height:54px;
+  }
+  .nav-mobile .toogle {
+    background: url('../img/mobile/header/menu_icon_1x.png') center center no-repeat;
+    display: block;
+    width:54px;
+    height:53px;
+    text-indent: -9999px;
+  }
+  header nav .logo {
+    width:calc(100% - 108px);
+    border-left:0;
+  }
+  /* first time that i see that... ID with any object before */
+  header nav #bradesco-btn {
+    width:54px;
+    height:53px;
+    border-right:1px solid #c60036;
+  }
+  .mobile-divirta-se {
+    width: 90%;
+    margin-bottom:30px;
+  }  
+  #content .about {
+    padding-top:0;
+    margin-top:0;
+  }
+  .about {
+    margin-top:30px;
+  }
+    .about img {
+      width:80%;
+      margin:0 auto 30px;
+    }
+  
+  /* O que é */
+
+  body{
+    text-align: center;
+  }     
+  .jumbotron{
+    background-image: url(../img/mobile/home/Topo_bg.png);
+    background-position: center center;
+    background-size: cover;
+  }
+  .about{
+    width: 100%;
+  }
+    .about a{
+      display: inline-block;
+      width: 90%;
+      height: auto;
+    }
+      
+  .video-img-mobile{
+    width: 100%;
+  }
+  .btn-apple, 
+  .btn-android{
+    width: 100%;  
+    z-index: 12;
+    height: 126px;
+    text-align: center;
+    position: relative;
+    margin-top: -30px;
+  } 
+    .btn-apple a, 
+    .btn-android a{
+      width: 100%;
+      height: 126px;
+      display: block;
+    } 
+      .btn-apple a img, 
+      .btn-android a img {
+        width: 75%;        
+        max-width: 250px;
+        margin-top: -50px;
+      }
+
+  .mobile-o-que-e{
+    margin: 40px 0;
+  }
+
+  .slick-slide > img{   
+    width: 100%;
+    max-width: 400px;
+  }   
+
+  .slick-prev.slick-arrow,
+  .slick-next.slick-arrow{
+    width: 25px;
+    height: 26px;   
+    top: 50%;
+      position: absolute;
+      z-index: 1;     
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+  }
+  .slick-next.slick-arrow{
+    right: 15px;
+  }
+  .slick-prev.slick-arrow{
+    left: 15px;
+  }
+    .slick-prev.slick-arrow{
+      background-image: url(../img/mobile/home/left_button.png);
+    }
+    .slick-next.slick-arrow{
+      background-image: url(../img/mobile/home/right_button.png);
+    }   
+
+  .mobile-o-que-e{
+    position: relative;
+  } 
+  .mobile-o-que-e .slide{
+    text-align: center;
+    padding: 15px;
+  }
+  .slick-track{
+    height: 750px;
+    text-align: center;
+  }
+  .slick-dots{
+    list-style: none; 
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    top: 90%;   
+  }
+    .slick-dots li{
+      display: inline-block;
+      margin: 5px;
+    }
+    .slick-dots li button{
+      border: none;
+      background-image: url(../img/mobile/home/dots.png);
+      width: 15px;
+      height: 15px;
+      text-indent: 9999px;
+    }
+    .slick-dots .slick-active button{
+      background-image: url(../img/mobile/home/dots-active.png);
+    }
+    .slide.cor-o-que-e{
+      background-color: #c4ec60;
+    }
+    .slide.cor-medico{
+      background-color: #ffb74f;
+    }
+    .slide.cor-seguranca{
+      background-color: #62cdf0;
+    }
+    .slide.cor-avatar{
+      background-color: #fea11c;
+    }
+    .slide.cor-em-apuros{
+      background-color: #fb8686;
+    } 
+    .slide.cor-cristo{
+      background-color: #fee935;
+    }
+    .slide p{
+      margin-top: 40px;     
+    }
+  
+  .ambiente-seguro{
+    width: 100%;    
+  }
+    .ambiente-seguro img{
+      width: 90%;
+    }
+  
+  /** Header */
+
+  header{
+    padding-left: 0;
+  } 
+
+    .full-width nav.nav-mobile{
+      text-align: center;
+      position: relative;
+    }
+
+      .full-width nav.nav-mobile #list-mobile{
+        display: none;
+        position: absolute; 
+      }
+        .full-width nav.nav-mobile .toogle{
+          border-left: 1px #c60036 solid;           
+          float: right;
+          padding: 0 5px;
+          background-color: #cf0034;
+          display: block;
+        }
+
+        .full-width nav.nav-mobile #list-mobile{
+          list-style: none;
+            background-color: #E80039;
+            z-index: -1;
+            width: 200px;
+            min-height: 300px;
+            right: 0px;
+            top: 38px;
+        }
+          .full-width nav.nav-mobile #list-mobile li a{
+            display: inline-block;            
+          }
+          .full-width nav.nav-mobile #list-mobile li a.link{
+            border:none;
+          }
+          .full-width nav.nav-mobile #list-mobile li a span{
+            color: #fff;
+          }
+    .full-width nav a{
+      display: none;
+    } 
+      header nav .logo{
+        text-align: center;
+      }
+      .full-width nav .logo a{
+        display: inline;
+      }
+        
+  .logo-expansivel-mobile{
+    width: 100%;
+  }
+    .logo-expansivel-mobile img{
+      width: 70%;
+      max-width:250px;
+      margin-top: 72px;
+    }
+  footer{   
+    background-color: #e90040;    
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin-top: 40px;
+
+  } 
+  footer .recent-login{
+    width: 100% !important;   
+  }
+
+  footer .security-tag{
+    bottom: 160px;    
+  }
+
+  .links-footer{
+    float: right;
+      list-style: none;
+      text-align: left;
+      margin-top: 40px;
+      margin-right: 10px;
+  }
+    .links-footer li{
+      margin-bottom: 10px;
+    }
+      .links-footer li a{
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+      }
+    footer > p  {
+      padding: 0;
+    }
+  .button-mobile {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+  }
+  .button-mobile > a {
+    width:48%;
+    max-width:155px; 
+    display: inline-block;
+  }
+  .button-mobile img {
+    width:100%;
+  }
+  .security-tag {
+    width:40%;
+    max-width:134px;
+  }
+
+
+  footer nav .recent-login .recent-user h1{
+    color: #fff;
+  }
+  .slick-slide img{
+    display: inline !important;
+  }
+  footer nav .recent-login {
+    border:0;
+    border-bottom:1px #c60036 solid;
+    padding-bottom:25px;
+    margin-bottom:20px;
+  }
+  
+  footer {
+    margin-top:80px;
+  }
+  footer::before {
+    width:100%;
+    height:46px;
+    content:"";
+    position: absolute;
+    top:-30px;
+    left:0;    
+    background: url('../img/mobile/home/footer_topo.png') center center no-repeat;
+  }
+
+  .centralizer{
+    width:100%;
+    margin:0;
+  }
+  html, body{
+    width: 100%;
+  }
+  .video-img-mobile img {
+    width: 100%;
+    min-width:300px;
+    max-width:400px;
+  }  
+  footer nav .recent-login > div {
+    width:50%;
+    padding-left:0;
+  }
+  footer nav .recent-login .recent-user h1{
+    width: auto;
+  }
+  footer nav .recent-login .recent-user{
+    width: 150px;
+  }
+  .divider-footer{
+    background-image: url(../img/mobile/home/divider-footer.png);
+  }
+  .full-width nav .logo a img {
+    width: 112px;
+  }}
+@media (min-width: 767px) and (max-width:991px) {
+  header nav .logo {
+    width:calc(100% - 152px);
+    padding-top: 15px;    
+  }
+  .full-width nav .logo a img {
+    width:155px;
+  }
+  header,
+  .nav-mobile .toogle {
+    height:71px;
+  }
+  header nav #bradesco-btn {
+    width: 80px;
+    height: 70px;
+  }
+  .full-width nav.nav-mobile #list-mobile {
+    top: 55px;
+  }
+  .full-width nav.nav-mobile .toogle {
+    width:72px;
+    height:70px;
+  }}
+@media (min-width: 320px) and (max-width: 640px){
+  .video-img-mobile{
+    padding-top: 40px;
+  }
+  .btn-apple, .btn-android{
+    margin-top: 17px;
+  }}
+
+@media (min-width: 123123) and (max-width: 9631231230px){
+  .centralizer{
+    width: 960px;
+  }
+
+  .corpo{
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+  }
+  .ambiente-seguro{
+    margin-bottom: 40px;
+  }
+  .slick-next.slick-arrow{
+    right: 15px;
+  }
+  .slick-prev.slick-arrow{
+    left: 15px;
+  }
+    .slick-prev.slick-arrow{
+      background-image: url(../img/mobile/home/left_button.png);
+    }
+    .slick-next.slick-arrow{
+      background-image: url(../img/mobile/home/right_button.png);
+    }   
+
+  .mobile-o-que-e{
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  } 
+  .mobile-o-que-e .slide{
+    text-align: center;
+    padding: 15px;
+  }
+  .slick-track{
+    height: 750px;
+    text-align: center;
+  }
+  .slick-dots{
+    list-style: none; 
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    top: 90%;   
+  }
+    .slick-dots li{
+      display: inline-block;
+      margin: 5px;
+    }
+    .slick-dots li button{
+      border: none;
+      background-image: url(../img/mobile/home/dots.png);
+      width: 15px;
+      height: 15px;
+      text-indent: 9999px;
+    }
+    .slick-dots .slick-active button{
+      background-image: url(../img/mobile/home/dots-active.png);
+    }
+    .slide.cor-o-que-e{
+      background-color: #c4ec60;
+    }
+    .slide.cor-medico{
+      background-color: #ffb74f;
+    }
+    .slide.cor-seguranca{
+      background-color: #62cdf0;
+    }
+    .slide.cor-avatar{
+      background-color: #fea11c;
+    }
+    .slide.cor-em-apuros{
+      background-color: #fb8686;
+    } 
+    .slide.cor-cristo{
+      background-color: #fee935;
+    }
+    .slide p{
+      margin-top: 40px;     
+    }
+    .slick-slide h1 img{
+      width: auto;
+    }
+    .slick-slide img{
+      display: inline !important;
+      width: 50%;
+    }
+    .slick-prev.slick-arrow,
+    .slick-next.slick-arrow{
+      width: 25px;
+      height: 26px;   
+      top: 50%;
+        position: absolute;
+        z-index: 1;     
+      border: none;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+    }
+    footer{
+      background-image: url(../img/mobile/home/footer_topo_640.png);
+      background-color: #e90040;    
+      background-position: top center;
+      background-repeat: no-repeat;
+      height: 600px;
+      margin-top: 40px;
+    }
+    header nav .logo{
+      width: 760px;
+    }
+    .logo-expansivel-mobile{
+      text-align: center;
+    }
+    .logo-expansivel-mobile img{
+      width: auto !important;
+    }
+    .jumbotron{
+      height: 964px;
+      background-position: 56% calc( 148% + 545px);
+    }
+    .jumbotron .divider{
+      top: 95%;
+    }
+    .video-img-mobile{
+      text-align: center;
+    }
+    .about a img{
+      width: 30%;
+    }
+    footer .security-tag{
+      bottom: 360px;
+    }
+    .button-mobile{     
+        width: 200px;
+        position: absolute;
+        top: 274px;
+    }
+    .recent-login{
+      float: left;
+        margin-left: 235px;
+        margin-top: 140px !important;
+    }
+    footer nav .recent-login > div{
+      width: 50%;
+    }
+    .links-footer{
+      width:100%;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .links-footer li{
+      margin-top: 40px;
+      text-decoration: circle;
+      display: inline-block;
+    }
+    .links-footer li a{
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    footer nav.centralizer{
+      margin-bottom: 0 !important;
+      padding-bottom: 0 !important;
+    }
+    footer > p{
+      padding-top: 20px;
+    }}
+@media (min-width: 36123121px) and (max-width: 61231240px){
+  .centralizer{
+    width: 640px;
+  }
+  .corpo{
+    overflow: hidden;
+    position: relative;
+    width: 640px;
+  }   
+  footer{
+    background-image: url(../img/mobile/home/footer_topo_640.png);
+  }
+  footer nav .recent-login .recent-user h1{
+    width: auto;
+  }
+  footer nav .recent-login .recent-user{
+    width: 150px;
+  }
+  footer .recent-login{
+    margin-top: 100px !important;
+  }
+  .divider-footer{
+    width: 100%;    
+    height: 3px;
+    background-image: url(../img/mobile/home/divider-footer-640.png);
+    background-position: top center;
+    display: inline-block;
+  }
+  footer nav .recent-login > div{
+    width: 50%;
+  }
+  footer .security-tag{
+    bottom: 115px !important;
+  }
+  .links-footer{
+    margin-top: 35px;
+      width: 40%;
+  }
+  .slick-slide > img{   
+    width: 221px !important;
+    text-align: center;
+  }
+  .slick-slide h1{
+    text-align: center;
+  }
+  .slick-slide img{
+    display: inline-block !important;
+  }
+  .jumbotron .divider{
+    top: 146%;
+  }
+  #content{
+    padding-top: 450px;
+  }
+  header nav .logo{
+    width: 450px;
+  }
+  .full-width nav .logo a img{
+    width: 170px;
+      margin-top: 25px;
+  }
+  .btn-apple, .btn-android{
+    margin-top: -65px !important; 
+  }
+  .slide p{
+    padding: 0 70px;
+  }
+ }  
+@media (min-width: 36123120px) and (max-width: 641230px){
+} 

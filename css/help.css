@@ -1,0 +1,318 @@
+footer .rocket-station {
+	display:none;
+	margin-top:0;
+}
+body {
+	background-color:#cee9ff;
+	background-image:url(../img/ranking-background.png);
+	background-repeat:no-repeat;
+	background-position:50% 100%;
+}
+#content {
+	padding-top:60px;
+	text-align:center;
+	position:relative;
+}
+#content nav {
+	background-color:#7f0024;
+	/*-webkit-box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.75);*/
+	border-radius:10px;
+	overflow:hidden;
+}
+
+#content > img {
+	margin-bottom:-4px;
+	width:991px;
+	height:186px;
+}
+
+#content nav > div {
+	text-align:center;
+	font-family:Mikado-Bold;
+	font-size:16.33px;
+	line-height:76px;
+	height:76px;
+	float:left;
+	width:25%;
+	color:#e60039;
+	cursor:pointer;
+}
+#content nav > div span {
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+}
+#content nav > div:hover, #content nav > div.active {
+	background-color:#e60039;
+	text-shadow: 
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+		0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff
+	;
+}
+#content nav > div:hover {
+	background-color:#C70031;	
+}
+.help-page {
+	list-style: none;
+	padding:0;
+	display:none;
+}
+.help-page li {
+	background-color:white;
+	border-radius:7px;
+	padding:20px;
+	text-align:left;
+	position:relative;
+	margin-bottom:20px;
+}
+.help-page .question {
+	font-family:Asap-Bold;
+	font-size:19.86px;
+	color:#707074;
+	cursor:pointer;
+}
+.help-page .answer {
+	font-family:Asap-Regular;
+	font-size:18.33px;
+	color:#707074;
+	margin-top:20px;
+	display:none;
+}
+.help-page .help-btn {
+	width:43px;
+	height:43px;
+	background-image:url(../img/help-btn-closed.png);
+	display:block;
+	position:absolute;
+	top:10px;
+	right:-10px;
+}
+.search p {
+	font-family:Mikado-Bold;
+	font-size:27.5px;
+	color:#696969;
+	margin:0 0 10px 0;
+	text-align:left;
+}
+.search input[type=text] {
+	width:319px;
+	height:50px;
+	border:none;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+	padding:15px;
+	font-size:18px;
+	outline-width:0;
+}
+.search input[type=submit] {
+	background-color:#7f0024;
+	font-family:Mikado-Black;
+	font-size:18.33px;
+	color:#e80039;
+	border:none;
+	height:50px;
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	margin-top:-2px;
+	margin-left:-4px;
+	padding-right:12px;
+	padding-left:12px;
+	position:relative;
+	top:-1px;
+}
+.search {
+	width:379px;
+	position:absolute;
+	top:70px;
+	left:316px;
+}
+
+@media (max-width: 960px){
+	.up-down-toogle{
+		left: 885px !important;
+	}
+	.search{
+		left: 390px;
+    	top: 36px;
+	}
+	.help-page{
+		padding: 0 10px !important;
+		margin-top: 70px;
+	}
+	body{
+		background-image: url(../img/mobile/ajuda/vegetacao_bg_horizontal.png) !important;		
+	}
+	.corpo{
+		width: 100%;
+		background-color: #c8e7ff !important;
+	}
+	.img-help-mobile{
+		background-image: url(../img/mobile/ajuda/titulo_horizontal.png) !important;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		width: 100%;
+		min-height: 200px;
+	}	
+	.search{
+    right: 110px;
+    top: 49px;
+    left: auto;
+	}
+		.search p{
+			font-size: 22.5px;			
+		}
+		.search form{
+			float: left;
+		}
+	#content{
+		padding-top: 0px !important;
+	}
+		#content nav{
+			position: absolute !important;
+			top: 210px;
+			left: auto;
+			right: auto;
+			width: 94% !important;
+			z-index: 9999;
+		}
+
+.img-help-mobile{
+		background-image: url(../img/mobile/ajuda/titulo_vertical.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		width: 100%;
+		min-height: 250px;
+	}
+	nav.mobile .world,
+	nav.mobile .safety,
+	nav.mobile .parents{
+		display: none;
+	}
+	nav.mobile{		
+		width: 100%;
+		position: inherit !important;
+		height: 70px;
+		top: -46px;
+		width: 100% !important;
+		position: relative !important;
+	}
+
+	.up-down-toogle{
+		background: url(../img/mobile/ajuda/down_button.png) center center no-repeat;
+		width: 12%;
+		height: 68px;
+		position: absolute;
+		top: 0;
+    right:0;    
+    left: auto !important;
+	}
+		.up-down-toogle.active{
+			background-image: url(../img/mobile/ajuda/up_button.png);
+		}
+
+		div.mobile.active .world, div.mobile.active .safety, div.mobile.active .parents{
+			display: block;
+		}
+	#content nav.mobile > div{
+		width: 88%;
+	}	
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+	.help-page{
+		padding: 0 10px !important;
+    	margin-top: 190px;
+	}
+	body{
+		background-image: url(../img/mobile/ajuda/vegetacao_bg_horizontal.png) !important;		
+	}
+	.corpo{
+		width: 100%;
+		background-color: #c8e7ff !important;
+	}
+	.img-help-mobile{
+		background-image: url(../img/mobile/ajuda/titulo_vertical.png) !important;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center top;
+		width: 100%;
+		min-height: 210px;
+	}	
+	.search{
+		left: 25px;
+    top: 250px;
+	}
+		.search p{
+			font-size: 19.5px;
+			width: 310px;
+		}
+		.search form{
+			float: left;
+		}
+		.search form input[type=text]{
+			width: 240px;
+		}
+	#content{
+		padding-top: 0px !important;
+	}
+		#content nav{
+			position: relative;
+			top: 155px;
+			width: 90% !important;
+			left: auto;
+		}
+
+	.img-help-mobile{
+		background-image: url(../img/mobile/ajuda/titulo_vertical.png);
+		background-size: 350px;
+		background-repeat: no-repeat;
+    background-position: center bottom;
+		width: 100%;
+		min-height: 200px;
+	}	
+	nav.mobile .world,
+	nav.mobile .safety,
+	nav.mobile .parents{
+		display: none;
+	}
+	nav.mobile{		
+		width: 100%;
+		position: inherit !important;
+		height: 70px;
+		top: -46px;
+		width: 100% !important;
+		position: relative !important;
+	}
+	nav.mobile .help-page{
+		padding: 0 10px;
+	}
+	nav.mobile .up-down-toogle{
+    background: url(../img/mobile/ajuda/down_button.png) center center no-repeat;
+    width: 12%;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto !important;
+    background-size: 24px;
+	}
+		nav.mobile .up-down-toogle.active{
+			background-image: url(../img/mobile/ajuda/up_button.png);
+		}
+
+		div.mobile.active .world, div.mobile.active .safety, div.mobile.active .parents{
+			display: block;
+		}
+	#content nav.mobile > div{
+		width: 88%;
+	}	
+}
+

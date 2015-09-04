@@ -1,0 +1,90 @@
+footer .rocket-station {
+	display:none;
+	margin-top:0;
+}
+
+#content {
+	text-align:center;
+	/*width:100%;*/
+	font-family:Asap-Regular;
+	font-size:19.86px;
+	color:#626262;
+	position:relative;
+	padding-top:80px;
+}
+.player input[type=radio] {
+	display:none;
+}
+.player {
+	padding-top:20px;
+	display:inline-block;
+	margin:0 20px;
+	/*margin-bottom:50px;*/
+}
+.player input[type=radio]:checked ~ label img {
+	border:8px solid #e80039;
+	border-radius:10px;
+}
+.player label {
+	width:98px;
+	height:150px;
+	display:block;
+	font-family:Asap-Bold;
+	font-size:13.75px;
+	color:#626262;
+	text-transform: uppercase;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.player label img {
+	width:98px;
+	height:98px;
+	margin-bottom:10px;
+}
+#content input[type=image] {
+	vertical-align:middle;
+	width:140px;
+}
+#content input[type=password] {
+	width:220px;
+	height:35px;
+	border:none;
+	border-radius:10px;
+	outline-width: 0;
+	margin:0 20px;
+	padding:10px;
+	font-size:18px;
+}
+#content .password-label {
+	font-family:Asap-Regular;
+	font-size:15.28px;
+}
+#content .forgot {
+	font-family:Asap-Bold;
+	font-size:13.75px;
+	color:#626262;
+	cursor:pointer;
+	position:relative;
+	left:-12px;
+	top:-10px;
+}
+#content .forgot:hover {
+	color:red;
+}
+.initially-hidden {
+	display:none;
+}
+.error {
+	background-image:url(../img/speech-incorrect-password.png);
+	width:101px;
+	height:52px;
+	position:absolute;
+	top:165px;
+	left:50px;
+}
+input.validate {
+	border:2px solid red !important;
+	background-image:url(../img/form-alert.png);
+	background-repeat:no-repeat;
+	background-position:98% 50%;
+}

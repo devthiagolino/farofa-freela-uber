@@ -1,0 +1,375 @@
+footer .rocket-station {
+	display:none;
+	margin-top:0;
+}
+body {
+	background: rgb(223,241,255);
+	background: url(../img/parents-area-bg.png), url(../img/parents-area-cloud-bg.png), -moz-linear-gradient(top,  rgba(223,241,255,1) 0%, rgba(200,231,255,1) 100%);
+	background: url(../img/parents-area-bg.png), url(../img/parents-area-cloud-bg.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(223,241,255,1)), color-stop(100%,rgba(200,231,255,1))); 
+	background: url(../img/parents-area-bg.png), url(../img/parents-area-cloud-bg.png), -webkit-linear-gradient(top,  rgba(223,241,255,1) 0%,rgba(200,231,255,1) 100%); 
+	background: url(../img/parents-area-bg.png), url(../img/parents-area-cloud-bg.png), -o-linear-gradient(top,  rgba(223,241,255,1) 0%,rgba(200,231,255,1) 100%); 
+	background: url(../img/parents-area-bg.png), url(../img/parents-area-cloud-bg.png), -ms-linear-gradient(top,  rgba(223,241,255,1) 0%,rgba(200,231,255,1) 100%);
+	background: url(../img/parents-area-bg.png), url(../img/parents-area-cloud-bg.png), linear-gradient(to bottom,  rgba(223,241,255,1) 0%,rgba(200,231,255,1) 100%);
+	background-repeat:repeat-x, no-repeat;
+	background-position:center bottom, center center;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dff1ff', endColorstr='#c8e7ff',GradientType=0 );
+}
+
+#content {
+	position:relative;
+	padding-top:75px;
+}
+#content #header > img {
+	vertical-align:super;
+	padding-left:40px;
+}
+#content #header > div {
+	display:inline-block;
+	width:560px;
+	padding-left:80px;
+}
+#content #header > div h2 {
+	font-family:Mikado-Bold;
+	font-size:30.56px;
+	color:#707074;
+	margin:10px 0;
+}
+#content #header > div p {
+	font-family:Asap-Regular;
+	font-size:19.86px;
+	color:#707074;
+	padding:0;
+	margin:0;
+}
+
+#content #children {
+	padding-top:60px;
+	text-align:center;
+	margin-bottom:200px;
+}
+#content #children .child-card {
+	width:235px;
+	height:515px;
+	background-image:url(../img/child-card.png);
+	position:relative;
+	text-align:center;
+	display:inline-block;
+	margin:0 8px;
+}
+#content #children .child-card .delete {
+	position:absolute;
+	top:10px;
+	right:10px;
+	cursor:pointer;
+}
+#content #children .child-card .player-icon {
+	width:150px;
+	height:150px;
+	margin-top:20px;
+}
+#content #children .child-card h1 {
+	margin:0;
+	padding-top:10px;
+	color:white;
+	font-family:Mikado-Bold;
+	font-size:30.56px;
+	max-width:235px;
+	height:55px;
+	overflow:hidden;
+}
+#content #children .child-card .screenname {
+	font-size:15.28px;
+	font-family:Asap-Regular;
+	color:#626262;
+}
+#content #children .child-card .screenname span {
+	font-family:Asap-Bold;
+	font-size:18.33px;
+	color:#626262;
+}
+#content #children .child-card .child-info .info {
+	position:relative;
+}
+#content #children .child-card .level {
+	background-image:url(../img/level-bg.png);
+	width:164px;
+	height:41px;
+	position:absolute;
+	left:24px;
+	top:10px;
+}
+#content #children .child-card .money {
+	background-image:url(../img/coin-bg.png);
+	width:151px;
+	height:62px;
+	position:absolute;
+	left:24px;
+	top:25px;
+}
+#content #children .child-card .money span {
+	font-family:Mikado-Regular;
+	font-size:20px;
+	color:white;
+	position:absolute;
+	top:17px;
+	left:53px;
+	text-align:left;
+}
+#content #children .child-card .level span {
+	position:absolute;
+	left:10px;
+	top:2px;
+	font-family:Mikado-Black;
+	font-size:25.77px;
+	text-shadow: 3px 3px #289cc7;
+	color:white;
+	text-align:center;
+	width:20px;
+}
+#content #children .child-card .level > div {
+	position:absolute;
+	bottom:15px;
+	left:38px;
+	width:110px;
+	height:9px;
+	background-color:#f4842b;
+	border-radius:3px;
+	overflow:hidden;
+	-webkit-box-shadow: inset 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    inset 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         inset 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#content #children .child-card .level > div > div {
+	width:30%;
+	height:100%;
+	background-color:#f1cb40;
+}
+#content #children .child-card .change-pass-btn {
+	position:absolute;
+	left:-5px;
+	bottom:25px;
+	cursor:pointer;
+}
+#content #children .child-card .history-btn {
+	position:absolute;
+	right:-5px;
+	bottom:25px;
+	cursor:pointer;
+}
+#content #children .child-card .child-help img {
+	width:25px;
+	height:auto;
+	cursor:pointer;
+}
+#content #children .child-card .child-help .help-level {
+	position:absolute;
+	right:18px;
+	bottom:194px;
+}
+#content #children .child-card .child-help .help-money {
+	position:absolute;
+	right:25px;
+	bottom:128px;
+}
+
+.black-background {
+	background-color:rgba(0,0,0,0.7);
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:100;
+	display:none;
+}
+#delete-character-confirmation {
+	background-image:url(../img/delete-character-confirmation-bg.png);
+	width:628px;
+	height:450px;
+	margin:0 auto;
+	position:relative;
+	top:50%;
+	margin-top:-225px;
+	display:none;
+}
+#delete-character-confirmation .confirm {
+	position:absolute;
+	bottom:90px;
+	left:-20px;
+	cursor:pointer;
+}
+#delete-character-confirmation .cancel {
+	position:absolute;
+	top:-20px;
+	right:-15px;
+	cursor:pointer;
+}
+#delete-character-confirmation .cancel2 {
+	position:absolute;
+	bottom:90px;
+	right:-20px;
+	cursor:pointer;
+}
+#change-password {
+	background-image:url(../img/change-password-bg.png);
+	width:580px;
+	height:320px;
+	margin:0 auto;
+	position:relative;
+	top:50%;
+	margin-top:-203px;
+	padding-left:40px;
+	padding-top:75px;
+	display:none;
+	background-size:100%;
+}
+#change-password #error-field {
+	font-family:Asap-Bold;
+	font-size:16px;
+	color:#red;
+}
+#change-password > p {
+	font-family:Asap-Regular;
+	font-size:19.86px;
+	color:#626262;
+	margin-bottom:10px;
+}
+#change-password > p span {
+	font-family:Asap-Bold;
+	font-size:22.92px;
+}
+#change-password .cancel {
+	position:absolute;
+	top:-20px;
+	right:-15px;
+	cursor:pointer;
+	width:60px;
+}
+#change-password .confirm {
+	position:absolute;
+	bottom:40px;
+	right:0;
+	cursor:pointer;
+	width:205px;
+}
+#change-password input.validate:invalid {
+	border:2px solid red;
+	background-image:url(../img/form-alert.png);
+	background-repeat:no-repeat;
+	background-position:98% 50%;
+}
+#change-password form {
+	
+}
+#change-password form label {
+	display:block;
+	font-family:Asap-Regular;
+	font-size:16.86px;
+	color:#626262;
+	margin-top:5px;
+	margin-bottom:6px;
+}
+#change-password form input[type=password] {
+	width:290px;
+	height:35px;
+	border:none;
+	border-radius:10px;
+	outline-width:0;
+	font-size:18px;
+	padding:15px;
+}
+#change-password form .cop-speech {
+	position:absolute;
+	right:135px;
+	top:60px;
+	display:none;
+}
+#history-window {
+	background-image:url(../img/history-window-bg.png);
+	width:923px;
+	height:607px;
+	margin:0 auto;
+	position:relative;
+	top:50%;
+	margin-top:-303.5px;
+	padding-top:75px;
+	padding-left:85px;
+	display:none;
+}
+#history-window .header {
+	background-image:url(../img/history-window-header.png);
+	width:749px;
+	height:254px;
+	padding-top:70px;
+}
+#history-window .header p {
+	font-family:Asap-Regular;
+	font-size:;16.81px;
+	color:#626262;
+	margin:0;
+}
+#history-window .header p span {
+	font-family:Asap-Bold;
+	font-size:16.81px;
+	color:#626262;
+}
+#history-window .header p.screenname {
+	font-size:19.86px;
+	margin-bottom:15px;
+}
+#history-window .header p.screenname span {
+	font-size:22.92px;
+}
+#history-window .content-wrapper {
+	width:749px;
+	height:250px;
+	overflow-y:auto;
+}
+#history-window .cancel {
+	position:absolute;
+	top:-20px;
+	right:-15px;
+	cursor:pointer;
+}
+#history-window .content {
+	font-family:Asap-Regular;
+	font-size:16.81px;
+	color:#959595;
+	border-collapse:collapse;
+}
+#history-window .content tr {
+	
+}
+#history-window .content td {
+	width:20%;
+	text-align:center;
+	height:160px;
+	border-bottom:1px solid #959595;
+}
+#history-window .content td:first-child {
+	width:25%;
+	text-align:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

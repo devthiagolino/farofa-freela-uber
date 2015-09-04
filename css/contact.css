@@ -1,0 +1,138 @@
+footer .rocket-station {
+	display:none;
+	margin-top:0;
+}
+body {
+	background-color:#c9e7ff;
+	background-image:url(../img/alien-bg.jpg);
+	background-repeat:no-repeat;
+	background-position:50% calc( 100% - 432px );
+}
+.mayor {
+	position:absolute;
+	top:33px;
+	right:0;
+}
+#content {
+	min-height:650px;
+	margin-top:85px;
+	width:800px;
+	position:relative;
+	/*padding-bottom:190px;*/
+}
+#content form {
+	margin-top:50px;
+}
+#content form .left {
+	width:50%;
+	float:left;
+}
+#content form .right {
+	width:50%;
+	float:right;
+}
+#content form label {
+	display:block;
+	font-family:Asap-Regular;
+	font-size:15.28px;
+	color:#626262;
+	margin-bottom:4px;
+}
+#content form input[type=text], #content form textarea {
+	display:block;
+	width:352px;
+	height:38px;
+	border:none;
+	outline-width: 0;
+	border-radius:10px;
+	margin-bottom:20px;
+	padding:10px;
+}
+#content form input[type=image] {
+	width:180px;
+	float:right;
+}
+#content form textarea {
+	width:403px;
+	height:112px;
+	resize: none;
+}
+.validate:invalid {
+	border:2px solid red !important;
+	background-image:url(../img/form-alert.png);
+	background-repeat:no-repeat;
+	background-position:98% 50%;
+}
+p.error {
+	color:red;
+	font-family:Asap-Bold;
+}
+p.success {
+	color:darkgreen;
+	font-family:Asap-Bold;
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+	#content form .left{
+		float: none;
+		width: 100%;
+	}
+	#content form input[type=text], #content form textarea{
+		display: inline-block;
+		width: 100%;
+	}
+	#content form .right{
+		float: none;
+		width: 100%;
+	}
+		#content form input[type=image]{
+			float: none;
+		}
+		#content form{
+			display: inline-block;
+			text-align: center;
+		}
+	#content{
+		width: 100%;
+		text-align: center;
+	}
+	.mayor{
+		display: none;
+	}
+	img.title{
+		display: block;
+	}
+}
+@media (min-width: 641px) and (max-width: 960px){
+	#content form .left{
+		float: none;
+		width: 100%;
+	}
+	#content form input[type=text], #content form textarea{
+		display: inline-block;
+		width: 100%;
+	}
+	#content form .right{
+		float: none;
+		width: 100%;
+	}
+		#content form input[type=image]{
+			float: none;
+		}
+		#content form{
+			text-align: center;
+		}
+	#content{
+		width: 100%;
+	}
+	#content img.title{
+		float: left;
+	    padding-right: 385px;
+	    margin: 0 0 55px 24px;
+	}	
+	.mayor{
+		position: absolute;
+	    top: 34px;
+	    right: 23px;
+	}
+}
